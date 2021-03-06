@@ -1,27 +1,5 @@
-import React from "react";
-import wavingHand from "../img/waving_hand.png";
-//Styled
-import styled from "styled-components";
-// import { Handwave } from "../styles";
-
-const AboutSection = () => {
-  return (
-    <div>
-      <Handwave>
-        <img
-          class="object-scale h-10"
-          src={wavingHand}
-          alt="waving hand emoji"
-        />
-      </Handwave>
-
-      <div>Hi I'm Alex</div>
-    </div>
-  );
-};
-
-//Styled Components
-const Handwave = styled.div`
+// Waving Hand CSS
+export const Handwave = styled.div`
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
@@ -54,6 +32,11 @@ const Handwave = styled.div`
       transform: rotate(0deg);
     }
   }
-`;
 
-export default AboutSection;
+  body {
+    font-size: 3.5em;
+  }
+  h1 {
+    font-size: 0.5em;
+  }
+`;
