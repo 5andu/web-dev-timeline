@@ -116,3 +116,59 @@
     </div>
   </div>
 </div>;
+
+
+
+
+
+--- For Languages used and info
+
+
+<a href="#" class="inline-flex space-x-4">
+<span class="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
+  What's new
+</span>
+<span class="inline-flex items-center text-sm font-medium text-indigo-600 space-x-1">
+  <span>Just shipped version 0.1.0</span>
+  {/* <!-- Heroicon name: solid/chevron-right --> */}
+  <svg
+    class="h-5 w-5"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+    aria-hidden="true"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+      clip-rule="evenodd"
+    />
+  </svg>
+</span>
+</a>
+
+
+
+--- For entering emails
+
+<form action="#" class="mt-12 sm:max-w-lg sm:w-full sm:flex">
+  <div class="min-w-0 flex-1">
+    <label for="hero_email" class="sr-only">
+      Email address
+    </label>
+    <input
+      id="hero_email"
+      type="email"
+      class="block w-full border border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+      placeholder="Enter your email"
+    />
+  </div>
+  <div class="mt-4 sm:mt-0 sm:ml-3">
+    <button
+      type="submit"
+      class="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-10"
+    >
+      Notify me
+    </button>
+  </div>
+</form>
