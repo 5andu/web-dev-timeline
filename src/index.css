@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .timeline-img {
+    @apply h-24 w-24 object-cover rounded-full shadow-md xs:absolute md:mx-auto md:right-0 md:left-0;
+  }
+  .timeline-container-right {
+    @apply relative pt-2 xs:pl-28 xs:pt-0 md:w-1/2 ml-auto md:pl-16;
+  }
+  .timeline-container-left {
+    @apply relative pt-2 xs:pl-28 xs:pt-0 md:w-1/2 ml-0 mr-auto md:pl-0 md:pr-16;
+  }
+  .timeline-pointer-right {
+    @apply absolute inset-0 left-10 h-4 w-4 transform rotate-45 bg-white xs:top-11 xs:left-26 md:left-14;
+  }
+  .timeline-pointer-left {
+    @apply absolute inset-0 left-10 h-4 w-4 transform rotate-45 bg-white xs:top-11 xs:left-26 md:left-auto md:right-14;
+  }
+  .timeline-badge {
+    @apply inline-flex items-center mr-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .timeline-date {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-indigo-100 text-indigo-800 mb-3;
+  }
+  .timeline-button {
+    @apply block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2;
+  }
+}

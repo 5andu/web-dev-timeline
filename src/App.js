@@ -18,7 +18,7 @@ function App() {
           </Route>
 
           <Route path="/portfolio">
-            <PortfolioPage />
+            <PortfolioPage/>
           </Route>
         </Switch>
       </AnimatePresence>

@@ -1,5 +1,7 @@
 import React from "react";
 
-const AutoSlide = () => {
+const AutoSlides = () => {
   return <div></div>;
 };
+
+export default AutoSlides;

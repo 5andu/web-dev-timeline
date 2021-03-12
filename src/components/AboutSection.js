@@ -1,8 +1,6 @@
 import React from "react";
 import wavingHand from "../img/waving_hand.png";
-import personalWebsiteImage from "../img/alexandru_face.jpg";
-import twitterLogo from "../img/twitter_logo.png";
-import youtubeLogo from "../img/youtube_logo.jpg";
+
 import { Link } from "react-router-dom";
 
 //Components

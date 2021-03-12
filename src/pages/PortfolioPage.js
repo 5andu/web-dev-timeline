@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Timeline from "../components/Timeline";
 //Images
 
 //Framer Motion & Animation
@@ -15,6 +16,7 @@ const PortfolioPage = () => {
         variants={pageAnimation}
         initial="hidden"
         animate="show"
+        class="bg-indigo-50 h-full"
       >
         <motion.div variant={sliderContainer}>
           <Frame1 variants={pageSlider2}></Frame1>
@@ -23,7 +25,7 @@ const PortfolioPage = () => {
           <Frame4 variants={pageSlider2}></Frame4>
         </motion.div>
 
-        <div>
+        <div class="flex justify-center pt-5">
           <motion.button
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 2 } }}
@@ -34,6 +36,7 @@ const PortfolioPage = () => {
             </Link>
           </motion.button>
         </div>
+        <Timeline />
       </motion.div>
     </div>
   );
