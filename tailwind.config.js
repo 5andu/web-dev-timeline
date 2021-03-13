@@ -15,6 +15,8 @@ module.exports = {
       colors: {
         "light-orange": "#FFEDD5",
         "dark-orange": "#9A3412",
+        "light-cyan": "#CFFAFE",
+        "dark-cyan": "#155E75",
       },
       inset: {
         17: "68px",
