@@ -192,7 +192,7 @@ const Timeline = () => {
                 <p>
                   After a few projects and some client work on Wordpress,
                   Webflow, Wix, and Shopify, I finally started learning how to
-                  code. I began with a ruby course from the{" "}
+                  code. I started with learning ruby with the{" "}
                   <a
                     href="https://www.founderhacker.com/fundamentals/issc0"
                     target="_blank"
@@ -201,9 +201,22 @@ const Timeline = () => {
                   >
                     Founder Hacker{" "}
                   </a>
-                  course, which teaches the fundamentals of code (CLI, git,
+                  course, which also teaches the fundamentals of code (CLI, git,
                   APIs, Ruby, OOP, db). It helped a lot!
                 </p>
+                <div class="flex justify-center mt-3">
+                  <button class="block rounded-md border border-transparent bg-gray-700 text-base font-medium text-white shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                    <a
+                      href="https://www.founderhacker.com/fundamentals/issc0"
+                      // FIND REFERRAL
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <p class="px-1 py-2 sm:px-4">Check out Founder Hacker</p>
+                    </a>
+                  </button>
+                </div>
+                <p class="flex justify-center text-sm pt-1">(affiliate link)</p>
               </div>
             </div>
           </div>
@@ -241,8 +254,16 @@ const Timeline = () => {
                 <p>
                   At this point, I understood the basics of coding, but I hadn't
                   built a proper web page by hand yet, so I quickly learned HTML
-                  & CSS on Skillshare, and built a few websites to start doing a
-                  bit of Frontend.
+                  & CSS on{" "}
+                  <a
+                    href="https://www.skillshare.com/classes/Responsive-Web-Design-Essentials-HTML5-CSS3-Bootstrap/236553264?via=user-profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    Skillshare
+                  </a>
+                  , and built a few websites to start doing a bit of Frontend.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -292,9 +313,17 @@ const Timeline = () => {
                 </span>
                 <p>
                   I wanted to practice without just following a course step by
-                  step, so I did 2 challenges on Front-end-Mentor, which mainly
-                  used what I had just learned. I also had to learn a bit of
-                  JavaScript to do them.
+                  step, so I did 2 challenges on{" "}
+                  <a
+                    href="https://www.frontendmentor.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    Front-end-Mentor
+                  </a>
+                  , which mainly used what I had just learned. I also had to
+                  learn a bit of JavaScript to do them.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -343,8 +372,25 @@ const Timeline = () => {
                   Q4 2020
                 </span>
                 <p>
-                  I then went on and learned JavaScript with a course from the
-                  YouTuber Dev Ed, and made a few cool projects thanks to it.
+                  I then went on and learned JavaScript with a{" "}
+                  <a
+                    href="https://developedbyed.com/p/the-creative-javascript-course"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    course{" "}
+                  </a>
+                  from the beautiful{" "}
+                  <a
+                    href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    Dev Ed
+                  </a>
+                  , and made a few cool projects thanks to it.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -396,10 +442,18 @@ const Timeline = () => {
                   Q4 2020
                 </span>
                 <p>
-                  As I was finishing to learn JS, Dev Ed also released a React
-                  course, so I followed it and built a few other projects with
-                  it. The music player was pretty fun! I now had a better
-                  understanding of Frontend development.
+                  As I was finishing to learn JS, Dev Ed also released a{" "}
+                  <a
+                    href="https://developedbyed.com/p/the-creative-react-and-redux-course"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    React course
+                  </a>
+                  , so I followed it and built a few other projects with it. The
+                  music player was pretty fun! I now had a better understanding
+                  of Frontend development.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -408,7 +462,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Website</p>
+                      <p class="px-1 py-2 sm:px-4">View Music Player</p>
                     </a>
                   </button>
                 </div>
@@ -494,9 +548,26 @@ const Timeline = () => {
                 <p>
                   The CMO of the company I work for gave me some advice on
                   learning how to code, and told me that I didn't focus enough
-                  on the basics, so I joined this program which helps you become
-                  a fullstack developer to practice more. It helps a lot and
-                  makes me more confident in my skills.
+                  on the basics, so I joined this program created by{" "}
+                  <a
+                    href="https://www.youtube.com/channel/UC5-SbBYUzAWRhMSRgwLD5LA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    Pierre Urban{" "}
+                  </a>
+                  and{" "}
+                  <a
+                    href="https://www.youtube.com/channel/UC61GK_nOLSJdzAK5hoR2mJA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    Harry JMG{" "}
+                  </a>
+                  which helps people become fullstack developers. It helped me a
+                  lot and made me more confident in my skills.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-gray-700 text-base font-medium text-white shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -512,7 +583,9 @@ const Timeline = () => {
                     </a>
                   </button>
                 </div>
-                <p class="flex justify-center">(the course is in French)</p>
+                <p class="flex justify-center text-sm pt-1">
+                  (the course is in French)
+                </p>
               </div>
             </div>
           </div>
@@ -524,7 +597,7 @@ const Timeline = () => {
               <div class="timeline-pointer-left" aria-hidden="true"></div>
               <div class="bg-white p-6 rounded-md shadow-sm">
                 <span class="timeline-badge bg-red-100 text-red-800">
-                  Ruby on Rails
+                  Rails
                 </span>
                 <span class="timeline-badge bg-light-orange text-dark-orange">
                   HTML
@@ -552,8 +625,25 @@ const Timeline = () => {
                 <p>
                   While following Coding Accelerator, I started learning Ruby on
                   Rails to be able to build web apps, to do so, I followed a
-                  course from Gorails by Chris Oliver which taught me how to
-                  build a tweet scheduling web app.
+                  course from{" "}
+                  <a
+                    href="https://gorails.com/series/rails-for-beginners"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    Go Rails{" "}
+                  </a>
+                  made by{" "}
+                  <a
+                    href="https://twitter.com/excid3?lang=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-bold hover:underline text-indigo-500"
+                  >
+                    Chris Oliver{" "}
+                  </a>
+                  which taught me how to build a tweet scheduling web app.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -607,7 +697,7 @@ const Timeline = () => {
                 <p>
                   This portfolio uses all the Frontend languages I learned so
                   far, plus Tailwind CSS, which I had to learn in order to build
-                  the website you are on.
+                  the website you are currently on.
                 </p>
               </div>
             </div>
@@ -620,7 +710,7 @@ const Timeline = () => {
               <div class="timeline-pointer-left" aria-hidden="true"></div>
               <div class="bg-white p-6 rounded-md shadow-sm">
                 <span class="timeline-badge bg-red-100 text-red-800">
-                  Ruby on Rails
+                  Rails
                 </span>
                 <span class="timeline-badge bg-light-orange text-dark-orange">
                   HTML
