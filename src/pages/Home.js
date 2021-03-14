@@ -25,7 +25,12 @@ const Home = () => {
       </motion.div>
 
       <AboutSection />
-      <InfiniteCarousel />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: { duration: 3 } }}
+      >
+        <InfiniteCarousel />
+      </motion.div>
     </motion.div>
   );
 };
@@ -38,7 +43,7 @@ const Frame1 = styled(motion.div)`
   width: 100%;
   height: 100vh;
   background: rgba(79, 70, 229);
-  z-index: 2;
+  z-index: 3;
 `;
 
 const Frame2 = styled(Frame1)`

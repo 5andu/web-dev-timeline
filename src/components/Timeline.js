@@ -26,7 +26,7 @@ const Timeline = () => {
           My dev timeline
         </h1>
         <div class="relative container mx-auto flex flex-col space-y-8 px-6 md:px-2">
-          <div class="absolute z-0 w-2 h-full rounded-full bg-gray-800 shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
+          <div class="absolute z-0 w-2 h-full rounded-full bg-indigo-400 shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
           {/* Project 1: Wordpress*/}
           <div class="relative z-10">
             <img src={Project1} alt="" class="timeline-img" />
@@ -88,7 +88,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Website</p>
+                      <p class="px-2 py-2 sm:px-4">View Website</p>
                     </a>
                   </button>
                 </div>
@@ -155,7 +155,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Landing Page</p>
+                      <p class="px-2 py-2 sm:px-4">View Landing Page</p>
                     </a>
                   </button>
                 </div>
@@ -212,7 +212,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">Check out Founder Hacker</p>
+                      <p class="px-2 py-2 sm:px-4">Check out Founder Hacker</p>
                     </a>
                   </button>
                 </div>
@@ -272,7 +272,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Websites</p>
+                      <p class="px-2 py-2 sm:px-4">View Websites</p>
                     </a>
                   </button>
                 </div>
@@ -332,7 +332,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Websites</p>
+                      <p class="px-2 py-2 sm:px-4">View Websites</p>
                     </a>
                   </button>
                 </div>
@@ -399,7 +399,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Websites</p>
+                      <p class="px-2 py-2 sm:px-4">View Websites</p>
                     </a>
                   </button>
                 </div>
@@ -462,7 +462,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Music Player</p>
+                      <p class="px-2 py-2 sm:px-4">View Music Player</p>
                     </a>
                   </button>
                 </div>
@@ -509,7 +509,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Landing Page</p>
+                      <p class="px-2 py-2 sm:px-4">View Landing Page</p>
                     </a>
                   </button>
                 </div>
@@ -577,7 +577,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">
+                      <p class="px-2 py-2 sm:px-4">
                         Check out Coding Accelerator
                       </p>
                     </a>
@@ -652,7 +652,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-1 py-2 sm:px-4">View Web App</p>
+                      <p class="px-2 py-2 sm:px-4">View Web App</p>
                     </a>
                   </button>
                 </div>
@@ -746,8 +746,12 @@ const Timeline = () => {
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <p class="px-1 py-2 sm:px-4">Available soon</p>
+                    <a
+                      href="/portfolio"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <p class="px-2 py-2 sm:px-4">Available soon</p>
                     </a>
                   </button>
                 </div>

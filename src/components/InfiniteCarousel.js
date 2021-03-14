@@ -3,130 +3,142 @@ import React from "react";
 //Styled
 import styled from "styled-components";
 
+//Import visuals
+import Project1 from "../img/project_visual_01.jpg";
+import Project2 from "../img/project_visual_02.jpg";
+import Project3 from "../img/project_visual_03.jpg";
+import Project4 from "../img/project_visual_04.jpg";
+import Project5 from "../img/project_visual_05.jpg";
+import Project6 from "../img/project_visual_06.jpg";
+import Project7 from "../img/project_visual_07.jpg";
+import Project8 from "../img/project_visual_08.jpg";
+import Project9 from "../img/project_visual_09.jpg";
+import Project10 from "../img/project_visual_10.jpg";
+import Project11 from "../img/project_visual_11.jpg";
+import Project12 from "../img/project_visual_12.jpg";
+
 class InfiniteCarousel extends React.Component {
   // Component
   render() {
     return (
-      <body class="flex align-center justify-center h-screen">
-        {/* <Elements> */}
+      <div class="flex align-center justify-center ">
         <Slider>
           <SlideTrack>
             <Slide>
+              <img src={Project1} height="150" width="150" alt="EDG Logo" />
+            </Slide>
+            <Slide>
+              <img src={Project2} height="150" width="150" alt="Bankin' Logo" />
+            </Slide>
+            <Slide>
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project3}
+                height="150"
+                width="150"
+                alt="Founder Hacker Logo"
+              />
+            </Slide>
+            <Slide>
+              <img src={Project4} height="150" width="150" alt="HTML & CSS" />
+            </Slide>
+            <Slide>
+              <img
+                src={Project5}
+                height="150"
+                width="150"
+                alt="Front End Mentor"
               />
             </Slide>
             <Slide>
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project6}
+                height="150"
+                width="150"
+                alt="JavaScript Logo"
+              />
+            </Slide>
+            <Slide>
+              <img src={Project7} height="150" width="150" alt="React Logo" />
+            </Slide>
+            <Slide>
+              <img
+                src={Project8}
+                height="150"
+                width="150"
+                alt="Notion Course Logo"
               />
             </Slide>
             <Slide>
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project9}
+                height="150"
+                width="150"
+                alt="Coding Accelerator Logo"
               />
             </Slide>
             <Slide>
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project10}
+                height="150"
+                width="150"
+                alt="Go Rails Logo"
               />
             </Slide>
             <Slide>
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </Slide>
-            <Slide>
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </Slide>
-            <Slide>
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </Slide>
-            <Slide>
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </Slide>
-            <Slide>
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </Slide>
-            <Slide>
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </Slide>
-            <Slide>
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project11}
+                height="150"
+                width="150"
+                alt="This Portfolio Logo"
               />
             </Slide>
             <Slide class="slide">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project12}
+                height="150"
+                width="150"
+                alt="Final Project Logo"
               />
             </Slide>
             <Slide class="slide">
+              <img src={Project1} height="150" width="150" alt="EDG Logo" />
+            </Slide>
+            <Slide>
+              <img src={Project2} height="150" width="150" alt="Bankin' Logo" />
+            </Slide>
+            <Slide>
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project3}
+                height="150"
+                width="150"
+                alt="Founder Hacker Logo"
+              />
+            </Slide>
+            <Slide>
+              <img src={Project4} height="150" width="150" alt="HTML & CSS" />
+            </Slide>
+            <Slide>
+              <img
+                src={Project5}
+                height="150"
+                width="150"
+                alt="Front End Mentor"
               />
             </Slide>
             <Slide>
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
-                alt=""
+                src={Project6}
+                height="150"
+                width="150"
+                alt="JavaScript Logo"
               />
+            </Slide>
+            <Slide>
+              <img src={Project7} height="150" width="150" alt="React Logo" />
             </Slide>
           </SlideTrack>
         </Slider>
-        {/* </Elements> */}
-      </body>
+      </div>
     );
   }
 }
@@ -135,7 +147,7 @@ class InfiniteCarousel extends React.Component {
 
 const Slider = styled.div`
   background: white;
-  height: 100px;
+  height: 150px;
   margin-top: 20px;
   overflow: hidden;
   position: relative;
@@ -143,10 +155,11 @@ const Slider = styled.div`
 
   &::before,
   &::after {
+    /* @include white-gradient; */
     content: "";
-    height: 100px;
+    height: 150px;
     position: absolute;
-    width: 200px;
+    width: 150px;
     z-index: 2;
     background: linear-gradient(
       to right,
@@ -179,7 +192,7 @@ const SlideTrack = styled.div`
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 7));
+      transform: translateX(calc(-150px * 7));
     }
   }
 `;

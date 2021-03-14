@@ -32,11 +32,22 @@ const PortfolioPage = () => {
             class="block rounded-md border border-transparent mb-12 bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             <Link to="/">
-              <p class="px-3 py-3 sm:px-8">Back</p>
+              <p class="px-5 py-3 sm:px-6">Back</p>
             </Link>
           </motion.button>
         </div>
         <Timeline />
+        <div class="flex justify-center pt-5">
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 2 } }}
+            class="block rounded-md border border-transparent mb-12 bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          >
+            <Link to="/">
+              <p class="px-5 py-3 sm:px-6">Back</p>
+            </Link>
+          </motion.button>
+        </div>
       </motion.div>
     </div>
   );
