@@ -165,7 +165,7 @@ const Slider = styled.div`
       to right,
       rgba(255, 255, 255, 1) 0%,
       rgba(255, 255, 255, 0) 100%
-    );s
+    );
   }
 
   &::after {
