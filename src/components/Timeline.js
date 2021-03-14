@@ -742,7 +742,7 @@ const Timeline = () => {
                 </span>
                 <p>
                   And finally this project, which uses everything I have learned
-                  so far ! :)
+                  so far! :)
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
