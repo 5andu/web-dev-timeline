@@ -1,5 +1,7 @@
 import React from "react";
 import AboutSection from "../components/AboutSection";
+import InfiniteCarousel from "../components/InfiniteCarousel";
+
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -23,6 +25,7 @@ const Home = () => {
       </motion.div>
 
       <AboutSection />
+      <InfiniteCarousel />
     </motion.div>
   );
 };
