@@ -3,7 +3,7 @@ import AboutSection from "../components/AboutSection";
 import InfiniteCarousel from "../components/InfiniteCarousel";
 
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 //Framer Motion & Animation
 import { motion } from "framer-motion";

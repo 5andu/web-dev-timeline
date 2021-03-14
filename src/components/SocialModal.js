@@ -88,7 +88,7 @@ export default class Modal extends React.Component {
                           <img
                             class="w-16 h-16 rounded-full lg:w-16 lg:h-16"
                             src={personalWebsiteImage}
-                            alt="My personal Website image"
+                            alt="My personal Website"
                           />
                         </a>
                         <div class="font-medium text-lg leading-6 space-y-1">
