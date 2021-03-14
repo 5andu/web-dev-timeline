@@ -82,7 +82,8 @@ class AboutSection extends React.Component {
               </div>
 
               <div class="sm:mx-auto">
-                <div class="sm:hidden sm:relative sm:mt-14 sm:py-4 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center">
+                {/* Activate these when video is posted */}
+                {/* <div class="sm:hidden sm:relative sm:mt-14 sm:py-4 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center">
                   <motion.iframe
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 2 } }}
@@ -101,6 +102,9 @@ class AboutSection extends React.Component {
                     height="315"
                     src="https://youtube.com/embed/K24H6b0msrc"
                   ></motion.iframe>
+                </div> */}
+                <div class="sm:block  sm:relative sm:my-10 py-5 rounded md lg:absolute  lg:inset-y-0 lg:right-0 lg:w-1/2 flex justify-center items-center text-center bg-indigo-200 font-bold text-lg">
+                  <p class="md:pt-40  ">Video about code coming soon</p>
                 </div>
               </div>
             </div>
