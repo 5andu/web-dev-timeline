@@ -499,7 +499,7 @@ const Timeline = () => {
                   I needed a little pause with code, so I tried to launch an
                   online course in partnership with a youtuber, but we ended up
                   not being a good fit together, so I'll probably do it on my
-                  own at some point. the landing page looks clean though and was
+                  own at some point. The landing page looks clean though and was
                   fun to design!
                 </p>
                 <div class="flex justify-center mt-3">
