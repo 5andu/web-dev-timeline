@@ -104,7 +104,13 @@ class AboutSection extends React.Component {
                   ></motion.iframe>
                 </div> */}
                 <div class="sm:block  sm:relative sm:my-10 py-5 rounded md lg:absolute  lg:inset-y-0 lg:right-0 lg:w-1/2 flex justify-center items-center text-center bg-indigo-200 font-bold text-lg">
-                  <p class="lg:pt-32  ">Video about code coming soon</p>
+                  <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, transition: { duration: 2 } }}
+                    class="lg:pt-32  "
+                  >
+                    Video about code coming soon
+                  </motion.p>
                 </div>
               </div>
             </div>
