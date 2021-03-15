@@ -194,7 +194,7 @@ const Timeline = () => {
                   Webflow, Wix, and Shopify, I finally started learning how to
                   code. I started with learning ruby with the{" "}
                   <a
-                    href="https://www.founderhacker.com/fundamentals/issc0"
+                    href="https://swiy.io/Founder-Hacker"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="font-bold hover:underline text-indigo-500"
@@ -572,7 +572,7 @@ const Timeline = () => {
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-gray-700 text-base font-medium text-white shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                     <a
-                      href="https://joincodingnow.com/coding-accelerator"
+                      href="https://swiy.io/Coding-Accelerator"
                       // FIND REFERRAL
                       target="_blank"
                       rel="noopener noreferrer"
