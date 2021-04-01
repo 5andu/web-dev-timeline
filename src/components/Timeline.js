@@ -546,9 +546,7 @@ const Timeline = () => {
                   Q1 2021
                 </span>
                 <p>
-                  The CMO of the company I work for gave me some advice on
-                  learning how to code, and told me that I didn't focus enough
-                  on the basics, so I joined this program created by{" "}
+                  The CTO of the company I work for{" "}
                   <a
                     href="https://www.youtube.com/channel/UC5-SbBYUzAWRhMSRgwLD5LA"
                     target="_blank"
@@ -556,8 +554,10 @@ const Timeline = () => {
                     class="font-bold hover:underline text-indigo-500"
                   >
                     Pierre Urban{" "}
-                  </a>
-                  and{" "}
+                  </a>{" "}
+                  gave me some advice on learning how to code, and told me that
+                  I didn't focus enough on the basics, so I joined this program
+                  created by him and{" "}
                   <a
                     href="https://www.youtube.com/channel/UC61GK_nOLSJdzAK5hoR2mJA"
                     target="_blank"
