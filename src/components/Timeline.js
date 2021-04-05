@@ -584,7 +584,7 @@ const Timeline = () => {
                   </button>
                 </div>
                 <p class="flex justify-center text-sm pt-1">
-                  (the course is in French)
+                  (the program is in French)
                 </p>
               </div>
             </div>
