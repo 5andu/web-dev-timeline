@@ -202,7 +202,7 @@ const Timeline = () => {
                     Founder Hacker{" "}
                   </a>
                   course, which also teaches the fundamentals of code (CLI, git,
-                  APIs, Ruby, OOP, db). It helped a lot!
+                  APIs, Rails, OOP, db). It helped a lot!
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-gray-700 text-base font-medium text-white shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
