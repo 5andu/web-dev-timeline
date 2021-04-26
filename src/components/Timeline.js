@@ -724,7 +724,7 @@ const Timeline = () => {
                 <span class="timeline-badge bg-light-cyan text-dark-cyan">
                   React
                 </span>
-                <h2 class="text-xl font-bold py-0.5">The final project</h2>
+                <h2 class="text-xl font-bold py-0.5">Lofi Productivity</h2>
                 <span class="timeline-date">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -738,20 +738,23 @@ const Timeline = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  Q1 2021
+                  Q2 2021
                 </span>
                 <p>
-                  And finally this project, which uses everything I have learned
-                  so far! :)
+                  This project uses everything I have learned so far, and I also
+                  created an API to connect the Rails Backend and the React
+                  Frontend. Building this app was a great experience and I know
+                  that I'm now capable of building more complex projects that
+                  solve bigger problems!
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                     <a
-                      href="/portfolio"
+                      href="https://lofi-productivity.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p class="px-2 py-2 sm:px-4">Available soon</p>
+                      <p class="px-2 py-2 sm:px-4">View Web App</p>
                     </a>
                   </button>
                 </div>
