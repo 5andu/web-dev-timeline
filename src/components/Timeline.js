@@ -656,6 +656,9 @@ const Timeline = () => {
                     </a>
                   </button>
                 </div>
+                <p class="flex justify-center text-sm pt-1">
+                  (may take some time to load)
+                </p>
               </div>
             </div>
           </div>
@@ -758,6 +761,9 @@ const Timeline = () => {
                     </a>
                   </button>
                 </div>
+                <p class="flex justify-center text-sm pt-1">
+                  (may take some time to load)
+                </p>
               </div>
             </div>
           </div>
