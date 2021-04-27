@@ -381,7 +381,7 @@ const Timeline = () => {
                   >
                     course{" "}
                   </a>
-                  from the beautiful{" "}
+                  from the YouTuber{" "}
                   <a
                     href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"
                     target="_blank"
