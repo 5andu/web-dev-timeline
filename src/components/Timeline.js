@@ -60,16 +60,15 @@ const Timeline = () => {
                 </span>
 
                 <p>
-                  After creating my first business at 16 (
-                  <a
+                  After creating my{" "}
+                <a
                     href="https://alexglv.com/projects/tiger-bands"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="font-bold hover:underline text-indigo-500"
-                  >
-                    and failing
+                  >first business{" "}
                   </a>
-                  ), co-founding a{" "}
+                  at 16 and co-founding a{" "}
                   <a
                     href="https://alexglv.com/projects/noche-paris"
                     target="_blank"
