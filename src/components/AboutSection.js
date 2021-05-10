@@ -62,8 +62,8 @@ class AboutSection extends React.Component {
                         animate={{ opacity: 1, transition: { duration: 1.5 } }}
                         class="mt-6 text-xl text-gray-500"
                       >
-                        I just learned how to code recently, so I created this
-                        portfolio to showcase what I can do with code and
+                        I started learning how to code at the beginning of 2020, and I created this
+                        timeline to showcase what I can do with code and
                         No-code so far.
                       </motion.p>
                     </div>
