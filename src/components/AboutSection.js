@@ -62,9 +62,9 @@ class AboutSection extends React.Component {
                         animate={{ opacity: 1, transition: { duration: 1.5 } }}
                         class="mt-6 text-xl text-gray-500"
                       >
-                        I started learning how to code at the beginning of 2020, and I created this
-                        timeline to showcase what I can do with code and
-                        No-code so far.
+                        I started learning how to code at the beginning of 2020,
+                        and I created this timeline to showcase what I can do
+                        with code and No-code so far.
                       </motion.p>
                     </div>
 
@@ -83,14 +83,14 @@ class AboutSection extends React.Component {
 
               <div class="sm:mx-auto">
                 {/* Activate these when video is posted */}
-                {/* <div class="sm:hidden sm:relative sm:mt-14 sm:py-4 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center">
+                <div class="sm:hidden sm:relative sm:mt-14 sm:py-4 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center">
                   <motion.iframe
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 2 } }}
                     class="rounded-lg"
                     width="352"
                     height="198"
-                    src="https://youtube.com/embed/K24H6b0msrc"
+                    src="https://youtube.com/embed/OnxGNZY_HMg"
                   ></motion.iframe>
                 </div>
                 <div class="hidden sm:block  sm:relative sm:mt-14 sm:py-4 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center">
@@ -100,10 +100,10 @@ class AboutSection extends React.Component {
                     class="rounded-lg"
                     width="560"
                     height="315"
-                    src="https://youtube.com/embed/K24H6b0msrc"
+                    src="https://youtube.com/embed/OnxGNZY_HMg"
                   ></motion.iframe>
-                </div> */}
-                <div class="sm:block  sm:relative sm:my-10 py-5 rounded md lg:absolute  lg:inset-y-0 lg:right-0 lg:w-1/2 flex justify-center items-center text-center bg-indigo-200 font-bold text-lg">
+                </div>
+                {/* <div class="sm:block  sm:relative sm:my-10 py-5 rounded md lg:absolute  lg:inset-y-0 lg:right-0 lg:w-1/2 flex justify-center items-center text-center bg-indigo-200 font-bold text-lg">
                   <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 2 } }}
@@ -111,7 +111,7 @@ class AboutSection extends React.Component {
                   >
                     Video about code coming soon
                   </motion.p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
