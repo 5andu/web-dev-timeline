@@ -14,6 +14,8 @@ import Project9 from "../img/project_visual_09.jpg";
 import Project10 from "../img/project_visual_10.jpg";
 import Project11 from "../img/project_visual_11.jpg";
 import Project12 from "../img/project_visual_12.jpg";
+import Project13 from "../img/project_visual_13.jpg";
+import Project14 from "../img/project_visual_14.jpg";
 
 const Timeline = () => {
   return (
@@ -61,12 +63,13 @@ const Timeline = () => {
 
                 <p>
                   After creating my{" "}
-                <a
+                  <a
                     href="https://alexglv.com/projects/tiger-bands"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="font-bold hover:underline text-indigo-500"
-                  >first business{" "}
+                  >
+                    first business{" "}
                   </a>
                   at 16 and co-founding a{" "}
                   <a
@@ -662,7 +665,7 @@ const Timeline = () => {
             </div>
           </div>
 
-          {/* Project 11: Final Project */}
+          {/* Project 11: This Portfoliio */}
           <div class="relative z-10">
             <img src={Project11} alt="" class="timeline-img" />
             <div class="timeline-container-right">
@@ -763,6 +766,102 @@ const Timeline = () => {
                 <p class="flex justify-center text-sm pt-1">
                   (may take some time to load)
                 </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 13: My Personal Website */}
+          <div class="relative z-10">
+            <img src={Project13} alt="" class="timeline-img" />
+            <div class="timeline-container-right">
+              <div class="timeline-pointer-right" aria-hidden="true"></div>
+              <div class="bg-white p-6 rounded-md shadow-sm">
+                <span class="timeline-badge bg-indigo-100 text-indigo-800">
+                  Webflow
+                </span>
+                <span class="timeline-badge bg-gray-100 text-gray-800">
+                  No-Code
+                </span>
+                <h2 class="text-xl font-bold py-0.5">My Personal Website</h2>
+                <span class="timeline-date">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="mr-1.5 h-3 w-3 text-indigo-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Q2 2021
+                </span>
+                <p>
+                  I created my personal website to document what I'm working on,
+                  share what I learn, and meet cool people. I built it with
+                  Webflow and had some fun designing it!
+                </p>
+                <div class="flex justify-center mt-3">
+                  <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                    <a
+                      href="https://www.alexglv.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <p class="px-2 py-2 sm:px-4">View My Website</p>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 14: Notion Tools */}
+          <div class="relative z-10">
+            <img src={Project14} alt="" class="timeline-img" />
+            <div class="timeline-container-left">
+              <div class="timeline-pointer-left" aria-hidden="true"></div>
+              <div class="bg-white p-6 rounded-md shadow-sm">
+                <span class="timeline-badge bg-indigo-100 text-indigo-800">
+                  Webflow
+                </span>
+                <span class="timeline-badge bg-gray-100 text-gray-800">
+                  No-Code
+                </span>
+                <h2 class="text-xl font-bold py-0.5">Notion Tools</h2>
+                <span class="timeline-date">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="mr-1.5 h-3 w-3 text-indigo-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Q2 2021
+                </span>
+                <p>
+                  This is a curated list of Notion Third Party Apps, Tools &
+                  Resources. I built this during in a few days using Webflow and
+                  was able to get some traffic to my website.
+                </p>
+                <div class="flex justify-center mt-3">
+                  <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                    <a
+                      href="https://www.alexglv.com/projects/notion-tools"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <p class="px-2 py-2 sm:px-4">View Project Page</p>
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
