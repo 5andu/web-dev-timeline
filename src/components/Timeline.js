@@ -16,6 +16,7 @@ import Project11 from "../img/project_visual_11.jpg";
 import Project12 from "../img/project_visual_12.jpg";
 import Project13 from "../img/project_visual_13.jpg";
 import Project14 from "../img/project_visual_14.jpg";
+import Project15 from "../img/project_visual_15.jpg";
 
 const Timeline = () => {
   return (
@@ -848,8 +849,8 @@ const Timeline = () => {
                 </span>
                 <p>
                   This is a curated list of Notion Third Party Apps, Tools &
-                  Resources. I built this in a few days using Webflow and
-                  was able to get a few thousand visits to my website.
+                  Resources. I built this in a few days using Webflow and was
+                  able to get a few thousand visits to my website.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 ">
@@ -866,9 +867,9 @@ const Timeline = () => {
             </div>
           </div>
 
-          {/* Project 13: My Personal Website */}
+          {/* Project 15: SchoolMaker Website */}
           <div class="relative z-10">
-            <img src={Project13} alt="" class="timeline-img" />
+            <img src={Project15} alt="" class="timeline-img" />
             <div class="timeline-container-right">
               <div class="timeline-pointer-right" aria-hidden="true"></div>
               <div class="bg-white p-6 rounded-md shadow-sm">
