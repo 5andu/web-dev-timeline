@@ -848,8 +848,8 @@ const Timeline = () => {
                 </span>
                 <p>
                   This is a curated list of Notion Third Party Apps, Tools &
-                  Resources. I built this during in a few days using Webflow and
-                  was able to get some traffic to my website.
+                  Resources. I built this in a few days using Webflow and
+                  was able to get a few thousand visits to my website.
                 </p>
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 ">
