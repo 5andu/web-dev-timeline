@@ -210,8 +210,7 @@ const Timeline = () => {
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-gray-700 text-base font-medium text-white shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                     <a
-                      href="https://www.founderhacker.com/fundamentals/issc0"
-                      // FIND REFERRAL
+                      href="https://www.founderhacker.com/fundamentals"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -219,7 +218,7 @@ const Timeline = () => {
                     </a>
                   </button>
                 </div>
-                <p class="flex justify-center text-sm pt-1">(affiliate link)</p>
+                <p class="flex justify-center text-sm pt-1">(free course)</p>
               </div>
             </div>
           </div>
