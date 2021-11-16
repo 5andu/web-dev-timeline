@@ -895,7 +895,7 @@ const Timeline = () => {
                   Q3 2021
                 </span>
                 <p>
-                  While working at SchoolMaker, and EdTech company, I built &
+                  While working at SchoolMaker, an EdTech company, I built &
                   tweaked their marketing website in Webflow!
                 </p>
                 <div class="flex justify-center mt-3">
