@@ -31,7 +31,7 @@ class AboutSection extends React.Component {
             show={this.state.show}
           ></SocialModal>
         </div>
-        <div class="h-auto flex items-center justify-center">
+        <div class="h-auto flex items-center justify-center bg-white">
           <div class="bg-white pb-8 sm:pb-12 lg:pb-12 object-center">
             <div class="pt-8 overflow-hidden sm:pt-12 lg:relative">
               <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
