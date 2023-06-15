@@ -916,7 +916,7 @@ const Timeline = () => {
 
           {/* Project 16: YT.Careers */}
           <div class="relative z-10">
-            <img src={Project12} alt="" class="timeline-img" />
+            <img src={Project16} alt="" class="timeline-img" />
             <div class="timeline-container-left">
               <div class="timeline-pointer-left" aria-hidden="true"></div>
               <div class="bg-white p-6 rounded-md shadow-sm">
