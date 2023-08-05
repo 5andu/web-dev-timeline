@@ -756,7 +756,7 @@ const Timeline = () => {
                 <div class="flex justify-center mt-3">
                   <button class="block rounded-md border border-transparent bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                     <a
-                      href="https://lofi-productivity.herokuapp.com/"
+                      href="https://lofi.alexglv.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -764,9 +764,6 @@ const Timeline = () => {
                     </a>
                   </button>
                 </div>
-                <p class="flex justify-center text-sm pt-1">
-                  (may take some time to load)
-                </p>
               </div>
             </div>
           </div>
