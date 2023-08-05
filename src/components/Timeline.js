@@ -660,7 +660,7 @@ const Timeline = () => {
                   </button>
                 </div>
                 <p class="flex justify-center text-sm pt-1">
-                  (may take some time to load)
+                  (unavailable)
                 </p>
               </div>
             </div>
